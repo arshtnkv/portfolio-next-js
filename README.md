@@ -10,4 +10,26 @@ URL: [arshtnkv.ru](https://arshtnkv.ru/)
 - TypeScript
 - TailwindCSS
 - ESLint
+- Prettier
+- Framer Motion
 - AOS
+
+### Основные команды для работы:
+
+- Установка
+
+```
+npm i
+```
+
+- Запуск локального сервера
+
+```
+npm run dev
+```
+
+- Запуск ESLint
+
+```
+npm run lint
+```
