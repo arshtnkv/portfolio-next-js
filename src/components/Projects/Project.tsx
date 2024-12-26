@@ -9,16 +9,16 @@ interface IProjectProps {
 
 export const Project: FC<IProjectProps> = ({ project }) => {
   return (
-    <article className="flex flex-col items-center mt-10 md:flex-row z-10">
+    <article className="flex flex-col lg:items-center lg:flex-row z-10 gap-10 px-5">
       <Image
         alt={project.name}
-        className="flex-shrink-0 relative md:w-[450px] w-full ml-4 h-[250px] rounded-lg object-cover"
+        className="flex-shrink-0 relative lg:w-[450px] w-full lg:h-[250px] h-auto rounded-lg object-cover"
         height={250}
         loading="lazy"
         src={project.image}
         width={450}
       />
-      <div className="ml-2 mt-5 md:mt-0 md:ml-20">
+      <div>
         <h3 className="text-3xl font-semibold text-neon">{project.name}</h3>
         <p className="text-textDark mt-3 md:max-w-[700px]">{project.about}</p>
         {project.tech.map((tech, i) => (

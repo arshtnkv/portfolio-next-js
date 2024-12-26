@@ -14,37 +14,73 @@ const data = {
       name: 'Poster - Социальная сеть',
       image: '/projects/poster.png',
       about:
-        'В приложении доступны следующие функции: Создание постов: пользователи могут публиковать свои мысли; Взаимодействие с контентом: возможность комментировать и лайкать посты других пользователей; Подписки: подписка на интересных пользователей и возможность отписаться от них в любое время; Профили: у каждого пользователя есть личный профиль, где можно редактировать информацию о себе; Лента новостей: отображение постов пользователей, на которых подписан пользователь;',
+        'В приложении доступны следующие функции: Регистрация и аутентификация пользователей; Создание постов; Взаимодействие с контентом; Подписки; Профили; Лента новостей;',
       tech: [
         'React.js',
         'Redux Toolkit',
         'NextUi.js',
-        'JWT Token',
+        'JWT',
         'Typescript',
         'TailwindCSS',
-        'Node.js',
         'Express.js',
         'MongoDB',
         'Docker',
-        'Docker Compose',
       ],
       links: {
         Live: 'https://poster-react-eta.vercel.app/',
         GitHub: 'https://github.com/arshtnkv/poster-react',
       },
-      role: 'Fullstack developments',
+      role: 'Fullstack',
+    },
+    {
+      name: 'Patientor',
+      image: '/projects/patientor.png',
+      about:
+        'Простое приложение ведения медицинских карт для врачей, занимающихся диагностикой и обработкой основной медицинской информацией своих пациентов. Основной упор на оттачивание навыков по TypeScript и MaterialUI.',
+      tech: [
+        'React.js',
+        'Typescript',
+        'MaterialUI',
+        'Express.js',
+        'ESLint',
+        'Prettier',
+      ],
+      links: {
+        Live: 'https://patientor-react.vercel.app/',
+        GitHub: 'https://github.com/arshtnkv/patientor-react/',
+      },
+      role: 'Fullstack',
+    },
+    {
+      name: 'Site portfolio',
+      image: '/projects/portfolio.png',
+      about:
+        'Простое приложение ведения медицинских карт для врачей, занимающихся диагностикой и обработкой основной медицинской информацией своих пациентов. Основной упор на оттачивание навыков по TypeScript и MaterialUI.',
+      tech: [
+        'Next.js',
+        'Typescript',
+        'TailwindCSS',
+        'AOS',
+        'ESLint',
+        'Prettier',
+      ],
+      links: {
+        Live: 'https://patientor-react.vercel.app/',
+        GitHub: 'https://github.com/arshtnkv/patientor-react/',
+      },
+      role: 'Frontend',
     },
     {
       name: 'Acme - Административная панель',
       image: '/projects/acme.png',
       about:
         'Учебный проект от Vercel, разработанный для практики создания серверных рендеринговых приложений (SSR). В процессе работы были отточены навыки работы с современными технологиями, такими как Next.js и TailwindCSS, а также реализация аутентификации через NextAuth.js.',
-      tech: ['React.js', 'Next.js', 'NextAuth.js', 'Typescript', 'TailwindCSS'],
+      tech: ['Next.js', 'NextAuth.js', 'Typescript', 'TailwindCSS', 'ESLint'],
       links: {
         Live: 'https://nextjs-dashboard-arshtnkvs-projects.vercel.app/',
         GitHub: 'https://github.com/arshtnkv/nextjs-dashboard',
       },
-      role: 'Fullstack developments',
+      role: 'Fullstack',
     },
     {
       name: 'Game store',
@@ -55,7 +91,7 @@ const data = {
         Live: 'https://game-store-beta-nine.vercel.app/',
         GitHub: 'https://github.com/arshtnkv/game-store',
       },
-      role: 'Frontend developer',
+      role: 'Frontend',
     },
     {
       name: 'Клуб четырёх коней',
@@ -67,7 +103,7 @@ const data = {
         GitHub: 'https://github.com/arshtnkv/four-horse-club',
         Live: 'https://four-horse-club-eight.vercel.app/',
       },
-      role: 'Frontend developer',
+      role: 'Frontend',
     },
     {
       name: 'Pubg masters way',
@@ -79,7 +115,7 @@ const data = {
         GitHub: 'https://github.com/arshtnkv/pubg-masters-way',
         Live: 'https://pubg-masters-way-arshtnkv.vercel.app/',
       },
-      role: 'Fullstack developer',
+      role: 'Fullstack',
     },
     {
       name: 'Jewellery: accelerator #3 [HTML Academy]',
@@ -91,7 +127,7 @@ const data = {
         GitHub: 'https://github.com/arshtnkv/accelerator-level-3-jewellery',
         Live: 'https://accelerator-level-3-jewellery.vercel.app/',
       },
-      role: 'Fullstack developer',
+      role: 'Fullstack',
     },
     {
       name: 'Smart device: accelerator #2 [HTML Academy]',
@@ -103,7 +139,7 @@ const data = {
         GitHub: 'https://github.com/arshtnkv/accelerator-level-2-smart-device',
         Live: 'https://smart-device-dusky.vercel.app/',
       },
-      role: 'Fullstack developer',
+      role: 'Fullstack',
     },
     {
       name: 'HTML и CSS. Адаптивная вёрстка и автоматизация',
@@ -114,7 +150,7 @@ const data = {
         GitHub: 'https://github.com/arshtnkv/htmlacademy-level-2-pink-20',
         Live: 'https://pink-20-arshtnkv.vercel.app/index.html',
       },
-      role: 'Fullstack developer',
+      role: 'Fullstack',
     },
   ],
   links: [

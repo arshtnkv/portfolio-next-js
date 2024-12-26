@@ -9,7 +9,7 @@ const Logo: FC<LogoType> = ({ className }) => {
     <svg
       className={className}
       fill="none"
-      width="150"
+      width="120"
       height="30"
       viewBox="0 10 277 30"
       xmlns="http://www.w3.org/2000/svg"

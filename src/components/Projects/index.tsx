@@ -4,9 +4,9 @@ import data from '@/data';
 
 export const Projects = () => {
   return (
-    <div className="max-w-7xl w-full mx-auto p-5 md:p-0" id="work">
+    <div id="work">
       <Title num={2} title="Над чем я работал" />
-      <div className="flex flex-col">
+      <div className="flex flex-col space-y-10 mt-10">
         {data.projects.map((project, i) => (
           <Project key={i} project={project} />
         ))}

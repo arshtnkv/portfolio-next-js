@@ -5,15 +5,12 @@ import React from 'react';
 
 export const About = () => {
   return (
-    <div
-      className="flex flex-col items-center justify-center max-w-7xl w-full mx-auto p-5"
-      id="about"
-    >
+    <div className="flex flex-col items-center justify-center" id="about">
       <Title num={1} title="Обо мне" />
 
       <div className="flex flex-col items-center justify-center md:flex-row md:justify-start md:items-start">
-        <div className="mt-10 text-xl text-textDark md:w-1/2 z-10">
-          <p className="mb-3">
+        <div className="mt-10 text-xl text-textDark md:w-1/2 space-y-3 z-10">
+          <p>
             Разрабатываю высокопроизводительные и масштабируемые веб-приложения
             на{' '}
             <span className="text-neon">
@@ -24,12 +21,12 @@ export const About = () => {
           </p>
           <p>{data.about}</p>
           <a
-            className="flex items-center w-max mt-10 px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-darkerBlue bg-neon border-neon hover:bg-transparent hover:text-neon"
+            className="flex items-center w-max !mt-16 px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-darkerBlue bg-neon border-neon hover:bg-transparent hover:text-neon"
             href="/docs/resume.pdf"
             rel="noreferrer"
             download="resume.pdf"
           >
-            <span className="ml-2">Скачать резюме</span>
+            Скачать резюме
           </a>
         </div>
 
