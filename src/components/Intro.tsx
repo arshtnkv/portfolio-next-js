@@ -25,6 +25,11 @@ export const Intro = () => {
         развиваюсь в&nbsp;<span className="text-neon">Fullstack</span>
         &nbsp;с&nbsp;использованием Node.js и Express.js.
       </p>
+      <p className="md:w-2/3 text-textDar">
+        На этом сайте представлены примеры моих работ. Я делюсь только теми
+        проектами, которые не подпадают под действие договоров NDA, сохраняя
+        конфиденциальность и авторские права.
+      </p>
       <div className="flex flex-col min-[480px]:flex-row gap-5 !mt-16">
         <Link
           activeClass="active"

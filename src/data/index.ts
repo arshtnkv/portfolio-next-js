@@ -52,10 +52,10 @@ const data = {
       role: 'Fullstack',
     },
     {
-      name: 'Site portfolio',
+      name: 'Portfolio',
       image: '/projects/portfolio.png',
       about:
-        'Простое приложение ведения медицинских карт для врачей, занимающихся диагностикой и обработкой основной медицинской информацией своих пациентов. Основной упор на оттачивание навыков по TypeScript и MaterialUI.',
+        'На этом сайте представлены примеры моих работ. Я делюсь только теми проектами, которые не подпадают под действие договоров NDA, сохраняя конфиденциальность и авторские права.',
       tech: [
         'Next.js',
         'Typescript',
@@ -65,8 +65,8 @@ const data = {
         'Prettier',
       ],
       links: {
-        Live: 'https://patientor-react.vercel.app/',
-        GitHub: 'https://github.com/arshtnkv/patientor-react/',
+        Live: 'https://arshtnkv.ru/',
+        GitHub: 'https://github.com/arshtnkv/portfolio-next-js',
       },
       role: 'Frontend',
     },
@@ -74,7 +74,7 @@ const data = {
       name: 'Acme - Административная панель',
       image: '/projects/acme.png',
       about:
-        'Учебный проект от Vercel, разработанный для практики создания серверных рендеринговых приложений (SSR). В процессе работы были отточены навыки работы с современными технологиями, такими как Next.js и TailwindCSS, а также реализация аутентификации через NextAuth.js.',
+        'Учебный проект от Vercel, разработанный для практики создания серверных рендеринговых приложений (SSR). В процессе работы были отточены навыки работы с современными технологиями, такими как Next.js и TailwindCSS, а также реализация аутентификации через NextAuth.js. Тестовые данные: (user@nextmail.com, 123456)',
       tech: ['Next.js', 'NextAuth.js', 'Typescript', 'TailwindCSS', 'ESLint'],
       links: {
         Live: 'https://nextjs-dashboard-arshtnkvs-projects.vercel.app/',
